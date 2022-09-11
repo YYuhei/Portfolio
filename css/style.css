@@ -236,7 +236,7 @@ li {
 
 .card-image img {
   width: auto;
-  height: 300px;
+  height: 200px;
   max-width:100%;
   max-height:100%;
   margin:auto;
@@ -247,17 +247,17 @@ li {
 }
 
 .card-caption-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 8px;
 }
 
 .card-caption-info {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .card-caption-url {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .card img.fadein {
