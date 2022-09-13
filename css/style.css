@@ -280,16 +280,17 @@ li {
 #works .card {
   flex-basis: 31%;
   margin-bottom: 60px;
+  margin-left: auto;
 }
 
 #works .card-wrapper::after {
-  display: block;
-  flex-basis: 31%;
+  display: flex;
+  flex-basis: 20%;
   content: "";
 }
 
-#works .card:nth-child(3n+1):nth-last-child(-n+3),
-#works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
+#works .card:nth-child(2n+1):nth-last-child(-n+2),
+#works .card:nth-child(2n+1):nth-last-child(-n+2)~div {
   margin-bottom: 0;
 }
 
